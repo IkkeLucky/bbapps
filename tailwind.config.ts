@@ -10,6 +10,7 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			'emerald-custom': '#03A385', 
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <span className="text-xl font-bold">Your Company</span>
+              <span className="text-xl font-bold">BarbaraB</span>
             </Link>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
@@ -21,13 +21,13 @@ const Navbar = () => {
               Home
             </Link>
             <Link href="#" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              Services
+              Servizi
             </Link>
             <Link href="#" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              About
+              Cooperativa
             </Link>
             <Link href="#" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              Contact
+              Contatti
             </Link>
           </div>
           <div className="-mr-2 flex items-center sm:hidden">

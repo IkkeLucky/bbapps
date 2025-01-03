@@ -5,6 +5,7 @@ import TechStack from './components/TechStack'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 import OurTeam from './components/OurTeam'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <ContactForm />
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }

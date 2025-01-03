@@ -4,12 +4,21 @@ import { useRef, useEffect } from 'react'
 import Image from 'next/image'
 
 const technologies = [
-  { name: 'React', logo: '/images/reactlogo.png' },
-  { name: 'Next.js', logo: '/placeholder.svg?height=100&width=100' },
-  { name: 'TypeScript', logo: '/placeholder.svg?height=100&width=100' },
-  { name: 'Node.js', logo: '/placeholder.svg?height=100&width=100' },
-  { name: 'Python', logo: '/placeholder.svg?height=100&width=100' },
-  { name: 'Docker', logo: '/placeholder.svg?height=100&width=100' },
+  { name: 'React', logo: '/images/reactlogo.svg' },
+  { name: 'Next.js', logo: '/images/nextjs-icon.svg' },
+  { name: 'Typescript', logo: '/images/typescriptlogo.svg' },
+  { name: 'MongoDB', logo: '/images/mongodblogo.svg' },
+  { name: 'Nodejs', logo: '/images/nodejslogo.svg' },
+  { name: 'PHP', logo: '/images/phplogo.svg' },
+  { name: 'Figma', logo: '/images/figmalogo.svg' },
+  { name: 'TailwindCSS', logo: '/images/tailwindlogo.svg' },
+  { name: 'Wordpress', logo: '/images/wordpresslogo.svg' },
+
+
+  // { name: 'TypeScript', logo: '/placeholder.svg?height=100&width=100' },
+  // { name: 'Node.js', logo: '/placeholder.svg?height=100&width=100' },
+  // { name: 'Python', logo: '/placeholder.svg?height=100&width=100' },
+  // { name: 'Docker', logo: '/placeholder.svg?height=100&width=100' },
 ]
 
 const TechStack = () => {

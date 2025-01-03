@@ -4,12 +4,12 @@ import { useRef, useEffect } from 'react'
 import Image from 'next/image'
 
 const teamMembers = [
-  { name: 'John Doe', title: 'CEO', avatar: '/placeholder.svg?height=150&width=150' },
-  { name: 'Jane Smith', title: 'CTO', avatar: '/placeholder.svg?height=150&width=150' },
-  { name: 'Mike Johnson', title: 'Lead Developer', avatar: '/placeholder.svg?height=150&width=150' },
-  { name: 'Emily Brown', title: 'UX Designer', avatar: '/placeholder.svg?height=150&width=150' },
-  { name: 'Alex Lee', title: 'Product Manager', avatar: '/placeholder.svg?height=150&width=150' },
-  { name: 'Sarah Wilson', title: 'Marketing Specialist', avatar: '/placeholder.svg?height=150&width=150' },
+  { name: 'Alessandro Di Mauro', title: 'CDA', avatar: '/images/alessandrodimauro.jpg' },
+  { name: 'Giorgio Koutsileos', title: 'CDA', avatar: '/images/giorgiokoutsileos.jpg' },
+  { name: 'Dalila Husanu', title: 'CDA', avatar: '/images/dalilahusanu.jpg' },
+  { name: 'Simona Pizzutto', title: 'Ufficio Personale', avatar: '/images/simonapizzutto.jpg' },
+  { name: 'Ignacio Marchesini', title: 'Ufficio Tecnico', avatar: '/images/ignaciomarchesini.jpeg' },
+  { name: 'Silvio Perono', title: 'Ufficio Aquisti', avatar: '/images/silvioperono.jpg' },
 ]
 
 const OurTeam = () => {
@@ -39,7 +39,7 @@ const OurTeam = () => {
   return (
     <section className="py-14 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-extrabold text-gray-900 mb-12 text-center">Our Team</h2>
+        <h2 className="text-4xl font-extrabold text-gray-900 mb-12 text-center">Il nostro Team</h2>
         <div className="relative overflow-hidden">
           <div
             ref={carouselRef}
@@ -47,7 +47,7 @@ const OurTeam = () => {
             style={{ WebkitOverflowScrolling: 'touch' }}
           >
             {[...teamMembers, ...teamMembers].map((member, index) => (
-              <div key={index} className="flex-shrink-0 w-40">
+              <div key={index} className="flex-shrink-0 w-52">
                 <Image
                   src={member.avatar}
                   alt={member.name}
