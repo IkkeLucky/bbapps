@@ -10,6 +10,13 @@ const teamMembers = [
   { name: 'Simona Pizzutto', title: 'Ufficio Personale', avatar: './images/simonapizzutto.jpg' },
   { name: 'Ignacio Marchesini', title: 'Ufficio Tecnico', avatar: './images/ignaciomarchesini.jpeg' },
   { name: 'Silvio Perono', title: 'Ufficio Aquisti', avatar: './images/silvioperono.jpg' },
+  { name: 'Antonio Esposito', title: 'Comitato di Gestione', avatar: './images/antonioesposito.jpg' },
+  { name: 'Mario Rettore', title: 'Comitato di Gestione', avatar: './images/mariorettore.jpg' },
+  { name: 'Antonia Santobuono', title: 'Comitato di Gestione', avatar: './images/anasantobuono.jpg' },
+  { name: 'Angela Porello', title: 'Direzione Amministrativa', avatar: './images/angelaporello.jpg' },
+  { name: 'Paola Vajra', title: 'Ufficio Personale', avatar: './images/paolavajra.jpg' },
+  { name: 'Giulia Dallolmo', title: 'Ufficio Gare', avatar: './images/giuliadallolmo.jpg' },
+  { name: 'Filippo Enseki', title: 'UK Office Manager', avatar: './images/filippoenseki.jpg' },
 ]
 
 const OurTeam = () => {
