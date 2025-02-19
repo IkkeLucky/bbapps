@@ -4,7 +4,7 @@ import { useRef, useEffect } from 'react'
 import Image from 'next/image'
 
 const teamMembers = [
-  { name: 'Alessandro Di Mauro', title: 'CDA', avatar: './images/alessandrodimauro.jpg' },g
+  { name: 'Alessandro Di Mauro', title: 'CDA', avatar: './images/alessandrodimauro.jpg' },
   { name: 'Giorgio Koutsileos', title: 'CDA', avatar: './images/giorgiokoutsileos.jpg' },
   { name: 'Dalila Husanu', title: 'CDA', avatar: './images/dalilahusanu.jpg' },
   { name: 'Simona Pizzutto', title: 'Ufficio Personale', avatar: './images/simonapizzutto.jpg' },

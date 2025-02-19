@@ -11,7 +11,7 @@ const apps = [
     name: "BBGestore",
     description: "Abbiamo sviluppato BBGestore pensando a un sistema gestionale utilizzabile sia dai lavoratori che, all’occorrenza, dai clienti. L'autenticazione e i profili non sono stati richiesti dal cliente in questa fase, ma possono essere integrati in futuro. È prevista anche l'implementazione di un sistema di appuntamenti mobile o di una funzionalità di notifica, anch'essa non richiesta dall’attuale cliente ma disponibile come opzione futura",
     imageUrl: "/images/bbgestore.png",
-    url: "https://bbgestore123gestore.vercel.app/patients/67595e22003833abd88e/register"
+    url: "https://bbgestore123gestore.vercel.app/"
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const AppShowcase = () => {
   const [hoveredApp, setHoveredApp] = useState<number | null>(null)
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section id="app-showcase" className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Our Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

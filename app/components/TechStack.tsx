@@ -48,7 +48,7 @@ const TechStack = () => {
   return (
     <section className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">Our Tech Stack</h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">Il nostro Tech Stack</h2>
         <div className="relative overflow-hidden">
           <div
             ref={carouselRef}
